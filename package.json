@@ -1,0 +1,28 @@
+{
+  "name": "usergroups",
+  "version": "1.0.0",
+  "description": "A Discord bot that allows MyBB-like usergroups within a server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "user",
+    "group",
+    "community",
+    "subcommunity",
+    "usergroup"
+  ],
+  "author": "Virtus",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^13.0.1",
+    "djs-slash-commands": "^2.3.0",
+    "dotenv": "^10.0.0",
+    "ioredis": "^4.27.6",
+    "mongoose": "^5.13.2",
+    "mongoose-int32": "^0.5.0",
+    "image-size": "^1.0.0"
+  }
+}
